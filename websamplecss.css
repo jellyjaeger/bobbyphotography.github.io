@@ -4,7 +4,6 @@
  background-color:white;
   box-shadow: 2px 2px 2px #adb5bd ;
   border-radius:2px;
-  border:2px solid black;
 }
 /*company you want to choose as heading*/
 #company-name{
@@ -101,6 +100,18 @@ display:flex;
 .branches-container:hover .branch-image{
 opacity: 0.9;
 }
+.bootstrap-services{
+  background-color:#e9ecef;
+  height:4em;
+  min-width:45%;
+  margin-bottom:1em;
+  border-radius: 5px;
+  margin-top:1em;
+  font-family: 'Staatliches', cursive;
+  font-size: 2em;
+  box-shadow:5px 5px 18px #8d99ae;
+}
+
 @keyframes fadeout {
   from { opacity: 0; }
   to   { opacity: 1; }
@@ -130,31 +141,27 @@ opacity: 0.9;
 }
 @media screen and (min-width:320px)
 { 
+  .bootstrap{
+    margin-left:0px;
+  }
   .heading-bar-image{
-    border:2px solid black;
+    
     width:15%;
 }
   #promotion-box-grid{
-  border:2px solid black;
   margin-left:0;
   }
   .promotion-features{
     font-size:15px;
     margin-right:.5em;
-    border:2px solid black;
   }
   .promotion-highlight{
-  border:2px solid grey;
   width:100%;
 
   
   }
-  .slide{
-    border:2px solid orangered;
-  }
-.carousel{
-  border: 2px solid grey;
-}
+  
+  
   
   #heading-bar{
     height:5em;
@@ -167,7 +174,6 @@ opacity: 0.9;
   /*intoduction about the services*/
   .intro-short-para {
     width:100%;
-    border:2px solid green;
     line-height: 2em;
     margin-bottom:2em;
     font-size: 21px;
@@ -187,11 +193,9 @@ opacity: 0.9;
     width:18em;
     margin-bottom:2em;
     box-shadow: 8px 12px 10px #adb5bd;
-    border:2px solid blue;
   }
   
   .overlay {
-    border:2px solid orange;
     position: absolute; 
     bottom: 0; 
     width: 100%;
@@ -207,7 +211,6 @@ opacity: 0.9;
   #branches{
       display:flex;
       flex-wrap:wrap;
-    border:2px solid green;
 
   }
   .dim{
@@ -246,14 +249,13 @@ opacity: 0.9;
 @media screen and (min-width:540px)
 {
   .heading-bar-image{
-    border:2px solid black;
+    
     width:15%;
 }
   .carousel{
     width:100%;
   }
     #dropdown-nav {
-    border:2px solid yellow;
   }
     #heading-bar{
       height:5em;
@@ -264,7 +266,6 @@ opacity: 0.9;
     }
     .intro-short-para{
       width:100%;
-      border:2px solid black;
       line-height: 2em;
       margin-top:2em;
       margin-bottom:2em;
@@ -286,7 +287,6 @@ opacity: 0.9;
     border-radius:8px;
     widows: 20em;
     margin-bottom:2em;
-    border:2px solid red;
     margin-left:7em;
   }
   
@@ -299,7 +299,6 @@ opacity: 0.9;
     transition: .5s ease;
     opacity:1;
     font-size: 30px;
-    border:2px solid grey;
     text-align: center;
   }
   #branches{
@@ -312,7 +311,6 @@ opacity: 0.9;
     width:100%;
     font-size:3em;
     padding-top:0.5em;
-    border:2px solid green;
   }
   .dropbtn {
     background-color:white;
@@ -340,14 +338,12 @@ opacity: 0.9;
 @media screen and (min-width:720px)
 {
   .heading-bar-image{
-    border:2px solid black;
     width:15%;
 }
   .carousel{
     width:100%;
   }
     #dropdown-nav{
-    border:2px solid black;
   }
     #heading-bar{
       height:5em;
@@ -360,7 +356,6 @@ opacity: 0.9;
     }
     .intro-short-para{
       width:100%;
-      border:2px solid black;
       line-height: 2em;
       margin-top:2em;
       margin-bottom:2em;
@@ -398,7 +393,7 @@ opacity: 0.9;
     color: #f1f1f1; 
     font-size: 30px;
     padding: 20px;
-    border:2px solid yellow;
+    
   }
   #branches{
     min-width:360px;
@@ -427,21 +422,20 @@ opacity: 0.9;
 
 .branches-container:hover .overlay {
   opacity: 1;
-  border:2px solid black;
+  
 }
 } 
 @media screen and (min-width:910px)
 {
   .heading-bar-image{
-    border:2px solid black;
+    
     width:15%;
 }
   .carousel{
     width:100%;
   }
-    #dropdown-nav{
-    border:2px solid black;
-  }
+   
+  
     #heading-bar{
       height:7em;
       width:100%;
@@ -452,7 +446,6 @@ opacity: 0.9;
     }
     .intro-short-para{
       width:100%;
-      border:2px solid black;
       line-height: 2em;
       margin-top:2em;
       margin-bottom:2em;
@@ -519,13 +512,11 @@ opacity: 0.9;
 @media screen and (min-width:1200px)
 {
   .heading-bar-image{
-    border:2px solid black;
     width:15%;
 }
   .promotion-features{
   margin-left:4.5em;
 width:25%;
-border:2px solid yellow;
 font-size:25px;
 border-radius: 14px;
 }
@@ -543,19 +534,18 @@ height: 120%;
   width:100%;
 }
   #dropdown-nav{
-  border:2px solid black;
+
 }
   #heading-bar{
     height:8em;
     width:100%;
-    border:2px solid red;
   }
   #heading-bar i{
     font-size:5em;
   }
   .intro-short-para {
     width:100%;
-    border:2px solid black;
+  
     line-height: 2em;
     margin-top:2em;
     margin-bottom:2em;
@@ -576,7 +566,6 @@ height: 120%;
     margin-right:4em;
     margin-bottom:2em;
     margin-left:8em;
-    border:2px solid orange;
   }
   
   .overlay {
@@ -589,7 +578,6 @@ height: 120%;
     color: #ffffff;
     font-size: 30px;
     text-align:center;
-    border:2px solid yellow;
   }
   #branches{
     min-width:360px;
@@ -610,7 +598,7 @@ height: 120%;
   height:100%;
   width:15em;
   padding-left:0;
-  border:2px solid black;
+
 }
 .dropdown-content {
   display: none;
