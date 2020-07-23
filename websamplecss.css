@@ -130,6 +130,10 @@ opacity: 0.9;
 }
 @media screen and (min-width:320px)
 { 
+  .heading-bar-image{
+    border:2px solid black;
+    width:15%;
+}
   #promotion-box-grid{
   border:2px solid black;
   margin-left:0;
@@ -148,10 +152,10 @@ opacity: 0.9;
   .slide{
     border:2px solid orangered;
   }
-  .carousel{
-    border:2px solid green;
-    height:30em;
+.carousel{
+  border: 2px solid grey;
 }
+  
   #heading-bar{
     height:5em;
     width:100%;
@@ -241,11 +245,15 @@ opacity: 0.9;
 
 @media screen and (min-width:540px)
 {
+  .heading-bar-image{
+    border:2px solid black;
+    width:15%;
+}
   .carousel{
     width:100%;
   }
-    #dropdown-nav{
-    border:2px solid black;
+    #dropdown-nav {
+    border:2px solid yellow;
   }
     #heading-bar{
       height:5em;
@@ -276,20 +284,23 @@ opacity: 0.9;
   .branch-image {
     display:block;
     border-radius:8px;
-    width:30em;
+    widows: 20em;
     margin-bottom:2em;
+    border:2px solid red;
+    margin-left:7em;
   }
   
   .overlay {
     position: absolute; 
     bottom: 0; 
-    width: 20.75em;
+    width:100%;
     height:100%;
     color: #f1f1f1; 
     transition: .5s ease;
     opacity:1;
-    color: #ffffff;
     font-size: 30px;
+    border:2px solid grey;
+    text-align: center;
   }
   #branches{
     max-width:100%;
@@ -304,7 +315,7 @@ opacity: 0.9;
     border:2px solid green;
   }
   .dropbtn {
-    background-color:#dee2e6;
+    background-color:white;
     color:#343a40;
     padding-top:1.6em;
     font-size: 13px;
@@ -328,6 +339,10 @@ opacity: 0.9;
 }
 @media screen and (min-width:720px)
 {
+  .heading-bar-image{
+    border:2px solid black;
+    width:15%;
+}
   .carousel{
     width:100%;
   }
@@ -391,7 +406,7 @@ opacity: 0.9;
     margin-left:4em;
   }
   .dropbtn {
-  background-color:#dee2e6;
+  background-color:white;
   color:#343a40;
   padding-top:0;
   font-size: 13px;
@@ -417,6 +432,10 @@ opacity: 0.9;
 } 
 @media screen and (min-width:910px)
 {
+  .heading-bar-image{
+    border:2px solid black;
+    width:15%;
+}
   .carousel{
     width:100%;
   }
@@ -478,7 +497,7 @@ opacity: 0.9;
     margin-left:4em;
   }
   .dropbtn {
-  background-color:#dee2e6;
+  background-color:white;
   color:#343a40;
   padding-top:0;
   font-size: 13px;
@@ -498,7 +517,12 @@ opacity: 0.9;
 }
 }
 @media screen and (min-width:1200px)
-{.promotion-features{
+{
+  .heading-bar-image{
+    border:2px solid black;
+    width:15%;
+}
+  .promotion-features{
   margin-left:4.5em;
 width:25%;
 border:2px solid yellow;
@@ -523,13 +547,14 @@ height: 120%;
 }
   #heading-bar{
     height:8em;
-    width:83em;
+    width:100%;
+    border:2px solid red;
   }
   #heading-bar i{
     font-size:5em;
   }
   .intro-short-para {
-    width:55em;
+    width:100%;
     border:2px solid black;
     line-height: 2em;
     margin-top:2em;
@@ -548,7 +573,6 @@ height: 120%;
   .branch-image {
     display:block;
     border-radius:16px;
-    width:25em;
     margin-right:4em;
     margin-bottom:2em;
     margin-left:8em;
@@ -574,12 +598,11 @@ height: 120%;
     margin-top:2em;
   } 
   #company-name{
-    width:40em;
+    width:80%;
     font-size:5em;
-    padding-top:0.1em;
   }
   .dropbtn {
-    background-color:#dee2e6;
+    background-color:white;
   color:#343a40;
   padding-top:1em;
   font-size: 13px;
