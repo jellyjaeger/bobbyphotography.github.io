@@ -16,6 +16,7 @@
 #dropdown-nav{
   display:flex;
   background-color:white;
+  height:90%;
 }
 /*camera icon in the heading*/
 #heading-bar i{
@@ -167,10 +168,10 @@ iframe{
  svg text {
   font-family:'Yanone Kaffeesatz', sans-serif;;
    letter-spacing:15px;
-   stroke:ORANGE;
+   stroke:#333533;
    font-size: 4em;
    font-weight: 700;
-   stroke-width: 3;
+   stroke-width: 4;
    animation: textAnimate 5s infinite alternate;
    
  }
@@ -296,6 +297,8 @@ text-align:center;
     width:18em;
     margin-bottom:2em;
     box-shadow: 8px 12px 10px #adb5bd;
+    margin-left:1em;
+    margin-top:2em;
   }
   
   .overlay {
@@ -308,7 +311,10 @@ text-align:center;
     color: #ffffff;
     font-size: 30px;
     padding-top:6em;
-    padding-left:2em;
+    padding-left:2em; 
+    margin-left:.5em;
+    margin-top:2em;
+  
   }
   /*it is the field of specialisation*/
   #branches{
@@ -439,6 +445,19 @@ text-align:center;
 }
 @media screen and (min-width:720px)
 {
+   
+.bootstrap-services{
+  background-color:white;
+  height:4em;
+  min-width:45%;
+  margin-bottom:.1em;
+  border-radius: 5px;
+  margin-top:1em;
+  font-family: 'Staatliches', cursive;
+  font-size: 2em;
+  box-shadow:5px 5px 18px #8d99ae;
+ margin-left:1.5em;
+}
   .location{
     font-size:30px;
   }
@@ -545,7 +564,10 @@ text-align:center;
 }
 } 
 @media screen and (min-width:1000px)
-{ .mapouter{
+{ 
+  
+  
+  .mapouter{
   height:100%;
 }
 .footer{
