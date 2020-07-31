@@ -52,3 +52,13 @@ $(document).ready(function(){
 </html>
 
 
+/*this is fr the modal*/
+<div class="intro-short-para">
+  <div class="shadow-lg p-3 mb-3 bg-white rounded">
+  <i class="fas fa-quote-left"></i>Memories are the building blocks of life<br>
+  so the best way to save and share is to capture them.<i class="fas fa-quote-right"></i><br>
+  If you are a person like that<br>
+  KUDOS!<br>
+  you are in the right spot!
+</div>
+</div>

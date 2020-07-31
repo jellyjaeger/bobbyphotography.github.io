@@ -1,9 +1,10 @@
 /*this is the heading bar in the top*/
 #heading-bar{
   display:flex;
- background-color:white;
   box-shadow: 2px 2px 2px #adb5bd ;
   border-radius:2px;
+  position: absolute;
+  z-index: 2;
 }
 /*company you want to choose as heading*/
 #company-name{
@@ -15,8 +16,7 @@
   /*the drop down part in the heading*/
 #dropdown-nav{
   display:flex;
-  background-color:white;
-  height:90%;
+  z-index:2;
 }
 /*camera icon in the heading*/
 #heading-bar i{
@@ -333,7 +333,6 @@ text-align:center;
     padding-top:1em;
   }
   .dropbtn {
-    background-color:white;
     color:#343a40;
     padding-top:em;
     font-size: 13px;
@@ -348,7 +347,6 @@ text-align:center;
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
     width:6em;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -422,7 +420,6 @@ text-align:center;
     padding-top:0.5em;
   }
   .dropbtn {
-    background-color:white;
     color:#343a40;
     padding-top:1.6em;
     font-size: 13px;
@@ -540,7 +537,6 @@ text-align:center;
     margin-left:4em;
   }
   .dropbtn {
-  background-color:white;
   color:#343a40;
   padding-top:0;
   font-size: 13px;
@@ -639,7 +635,6 @@ text-align:center;
     margin-left:4em;
   }
   .dropbtn {
-  background-color:white;
   color:#343a40;
   padding-top:0;
   font-size: 13px;
@@ -740,7 +735,6 @@ height: 120%;
     padding-top:.7em;
   }
   .dropbtn {
-    background-color:white;
   color:#343a40;
   padding-top:1em;
   font-size: 13px;
